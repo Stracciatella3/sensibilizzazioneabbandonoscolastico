@@ -1,14 +1,14 @@
 
 @font-face {
     font-family: 'MyFont';
-    src: url('font/FedraNineRegular.otf') format('opentype');
+    src: url('FedraNineRegular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MyFont2';
-    src: url('font/HelveticaNeue-Medium.otf') format('opentype');
+    src: url('HelveticaNeue-Medium.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -39,14 +39,14 @@ body {
 
 
 .contenuto h1 {
-    font-family: 'MyFont', 'font/FedraNineRegular.otf', sans-serif;
+    font-family: 'MyFont', 'FedraNineRegular.otf', sans-serif;
     font-size: 50px;
     font-weight: bold;
     width: 100%;
 }
 
 .contenuto h3 {
-    font-family: 'MyFont', 'font/FedraNineRegular.otf', sans-serif;
+    font-family: 'MyFont', 'FedraNineRegular.otf', sans-serif;
     font-size: 22pt;
     font-weight: bold; 
     margin: 0 20px 20px 20px;
