@@ -1,0 +1,105 @@
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('font/FedraNineRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyFont2';
+    src: url('font/HelveticaNeue-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium';
+    background-color: #3225CC;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagina {
+    width: 70%;
+}
+
+.contenuto{
+    padding: 30px;
+    font-family: 'MyFont2';
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+
+.contenuto h1 {
+    font-family: 'MyFont', 'font/FedraNineRegular.otf', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.contenuto h3 {
+    font-family: 'MyFont', 'font/FedraNineRegular.otf', sans-serif;
+    font-size: 22pt;
+    font-weight: bold; 
+    margin: 0 20px 20px 20px;
+    color: #FF0F00;
+}
+
+
+.container {
+    border-top: #3225CC 5px solid;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); 
+    grid-template-rows: repeat(4, 1fr); 
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.container img {
+    height: auto; 
+    width: 100%;
+}
+
+.video video {
+    width: 100%;
+    border-top: 5px solid #3225CC;
+    border-bottom: 1px solid #3225CC;
+}
+.bottone-link {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bottone-link {
+    display: inline-block;
+    background-color: #FF0F00;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 139px;
+    font-size: 18px;
+    font-family: MyFont;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bottone-link:hover {
+    background-color: #3225CC;
+  }
+  
